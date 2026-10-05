@@ -1,0 +1,9 @@
+Application started
+ERROR connection failed
+User connected
+error file missing
+Error invalid input
+Everything is fine
+error timeout
+ERROR access denied
+error another problem
