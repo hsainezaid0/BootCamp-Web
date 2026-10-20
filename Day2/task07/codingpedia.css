@@ -13,23 +13,3 @@ body {
     padding-right: 10px;
     background-color: white;
 }
-
-.content {
-    display: flex;
-}
-
-.content > main {
-    flex: 4;
-    min-width: 0;
-}
-
-.content > aside {
-    flex: 1;
-    min-width: 0;
-}
-
-header {
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-    align-items: center;
-}
