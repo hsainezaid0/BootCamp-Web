@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Task 05 — Search products | Day 10
+        </title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <a href="../index.html">
+                Day 10 / All exercises
+            </a>
+            <h1>
+                Task 05 — Search products
+            </h1>
+            <p>
+                Try shoes / geox / &lt;100 / 2.
+            </p>
+            <form id="form" novalidate>
+                <div class="field">
+                    <label for="type">
+                        Type
+                    </label>
+                    <input type="text" id="type" name="type" value="shoes">
+                </div>
+                <div class="field">
+                    <label for="brand">
+                        Brand
+                    </label>
+                    <input type="text" id="brand" name="brand" value="geox">
+                </div>
+                <div class="field">
+                    <label for="price">
+                        Price condition (e.g. &lt;100)
+                    </label>
+                    <input type="text" id="price" name="price" value="<100">
+                </div>
+                <div class="field">
+                    <label for="number">
+                        Number (quantity)
+                    </label>
+                    <input type="text" id="number" name="number" value="2">
+                </div>
+                <button>
+                    Search
+                </button>
+            </form>
+            <p id="status" role="status">
+            </p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Type
+                            </th>
+                            <th>
+                                Brand
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                            <th>
+                                Number
+                            </th>
+                            <th>
+                                Stock
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="results">
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <script src="task05.js" defer>
+        </script>
+    </body>
+</html>

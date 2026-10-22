@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Task 04 — Live product validation | Day 10
+        </title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <a href="../index.html">
+                Day 10 / All exercises
+            </a>
+            <h1>
+                Task 04 — Live product validation
+            </h1>
+            <form id="form">
+                <div class="field">
+                    <label for="type">
+                        Type
+                    </label>
+                    <input type="text" id="type" name="type" value="">
+                </div>
+                <p id="type-status" class="text-danger" aria-live="polite">
+                    No type sent yet!
+                </p>
+                <div class="field">
+                    <label for="brand">
+                        Brand
+                    </label>
+                    <input type="text" id="brand" name="brand" value="">
+                </div>
+                <p id="brand-status" class="text-danger" aria-live="polite">
+                    No brand sent yet!
+                </p>
+            </form>
+        </main>
+        <script src="task04.js" defer>
+        </script>
+    </body>
+</html>

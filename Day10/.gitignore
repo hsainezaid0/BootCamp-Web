@@ -1,0 +1,5 @@
+chat.db
+chat.db-*
+*-journal
+*-wal
+*-shm

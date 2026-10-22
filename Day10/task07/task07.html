@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Task 07 — Mini-chat | Day 10
+        </title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <a href="../index.html">
+                Day 10 / All exercises
+            </a>
+            <h1>
+                Task 07 — Mini-chat
+            </h1>
+            <p>
+                Messages refresh every four seconds.
+            </p>
+            <div id="messages" class="panel" aria-live="polite">
+            </div>
+            <form id="form">
+                <div class="field">
+                    <label for="name">
+                        Name
+                    </label>
+                    <input type="text" id="name" name="name" value="">
+                </div>
+                <div class="field">
+                    <label for="message">
+                        Message
+                    </label>
+                    <textarea id="message" name="message" maxlength="1000" required>
+                    </textarea>
+                </div>
+                <button>
+                    Send message
+                </button>
+            </form>
+            <p id="status" role="status">
+            </p>
+        </main>
+        <script src="task07.js" defer>
+        </script>
+    </body>
+</html>
